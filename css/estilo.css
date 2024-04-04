@@ -9,6 +9,13 @@ body {
     background-color: #2C2834;
 }
 
+.navbar-nav .nav-item .nav-link.active {
+
+    color: #00e61f;
+    
+}
+
+
 /* Navbar */
 .container-fluid {
     background-color: #A740B8;
@@ -116,63 +123,24 @@ footer {
 
 /* Galeria */
 
-.galeriaw{
+.galeriaw {
     color: #000;
     text-align: center;
 }
 
 /* Sede */
-.sedeu{
+.sedeu {
     color: #000;
     text-align: center;
 }
 
 .map-container {
-    margin: 20px auto 50px; 
-    width: 90%; 
+    margin: 20px auto 50px;
+    width: 90%;
     max-width: 800px;
-    max-height: 70vh; 
-    height: 0; 
-    padding-bottom: 56.25%; 
-    position: relative; 
-    overflow: hidden; 
+    max-height: 70vh;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

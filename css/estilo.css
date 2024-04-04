@@ -42,28 +42,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55rem; 
-    margin-top: -50px;
+    margin-top: 40px; /* Ajusta este valor según sea necesario */
 }
 
 .carousel {
-    width: 60%; 
-    
+    max-width: 100%; /* Hace que el carrusel sea responsive */
+}
+
+.carousel-item img {
+    max-width: 100%; /* Hace que las imágenes del carrusel sean responsive */
+    height: auto;
+    max-height: 500px; /* Ajusta este valor según tus necesidades */
 }
 
 /* Footer */
 
 footer {
-    background-color: #333; 
-    padding: 1px; 
-}
-
-footer i {
-    font-size: 25px; 
-    color: #FFF; 
-}
-
-footer a {
-    padding: 5px;
-    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 5; /* Ajusta el padding según tu diseño */
+    text-align: center;
+    color: #FFF;
 }

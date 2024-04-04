@@ -1,27 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     background-color: #2C2834;
 }
 
 /* Navbar */
 .container-fluid {
-    background-color:#A740B8; 
+    background-color: #A740B8;
     width: 100%;
     height: 60px;
 }
+
 .navbar-nav {
     justify-content: center;
     width: 100%;
     font-size: larger;
 }
+
 .navbar {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 /* Logo */
@@ -31,8 +33,8 @@ body{
 }
 
 .logoprincipal img {
-    width: 10rem; 
-    height: auto; 
+    width: 10rem;
+    height: auto;
     margin-top: 20px;
 }
 
@@ -42,17 +44,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px; /* Ajusta este valor según sea necesario */
+    margin-top: 40px;
 }
 
 .carousel {
-    max-width: 100%; /* Hace que el carrusel sea responsive */
+    max-width: 100%;
 }
 
 .carousel-item img {
-    max-width: 100%; /* Hace que las imágenes del carrusel sean responsive */
+    max-width: 100%;
     height: auto;
-    max-height: 500px; /* Ajusta este valor según tus necesidades */
+    max-height: 500px;
+
 }
 
 /* Footer */
@@ -62,7 +65,114 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #333;
-    padding: 10px 5; /* Ajusta el padding según tu diseño */
+    padding: 10px 5;
     text-align: center;
     color: #FFF;
 }
+
+
+/* Contacto */
+.textohero {
+    color: rgb(255, 255, 255);
+}
+
+.fondo {
+    background-image: url("../assets/img/fondohero.png");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+.display-4 {
+    color: #181697;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-form {
+    margin-top: 40px;
+}
+
+/* Tienda */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Galeria */
+
+.galeriaw{
+    color: #000;
+    text-align: center;
+}
+
+/* Sede */
+.sedeu{
+    color: #000;
+    text-align: center;
+}
+
+.map-container {
+    margin: 20px auto 50px; 
+    width: 90%; 
+    max-width: 800px;
+    max-height: 70vh; 
+    height: 0; 
+    padding-bottom: 56.25%; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

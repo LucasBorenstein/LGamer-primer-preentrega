@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #2C2834;
+}
+
+/* Navbar */
+.container-fluid {
+    background-color:#A740B8; 
+    width: 100%;
+    height: 60px;
+}
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+    font-size: larger;
+}
+.navbar {
+    margin-bottom: 10px; 
+}
+
+/* Logo */
+.logoprincipal {
+    display: flex;
+    justify-content: center;
+}
+
+.logoprincipal img {
+    width: 10rem; 
+    height: auto; 
+    margin-top: 20px;
+}
+
+
+/* Carrousel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55rem; 
+    margin-top: -50px;
+}
+
+.carousel {
+    width: 60%; 
+    
+}
+
+/* Footer */
+
+footer {
+    background-color: #333; 
+    padding: 1px; 
+}
+
+footer i {
+    font-size: 25px; 
+    color: #FFF; 
+}
+
+footer a {
+    padding: 5px;
+    display: inline-block;
+}

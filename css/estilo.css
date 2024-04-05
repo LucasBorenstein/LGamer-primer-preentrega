@@ -7,13 +7,16 @@
 
 body {
     background-color: #2C2834;
+    font-family: Arial, sans-serif;
 }
 
+/* Menu Hamburguesa */
 .navbar-nav .nav-item .nav-link.active {
 
     color: #00e61f;
     
 }
+
 
 
 /* Navbar */

@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #2C2834;
     font-family: Arial, sans-serif;
@@ -12,12 +11,8 @@ body {
 
 /* Menu Hamburguesa */
 .navbar-nav .nav-item .nav-link.active {
-
     color: #00e61f;
-    
 }
-
-
 
 /* Navbar */
 .container-fluid {
@@ -48,13 +43,10 @@ body {
     margin-top: 20px;
 }
 
-
 /* Carrousel */
 .carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .carousel {
@@ -65,11 +57,9 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 500px;
-
 }
 
 /* Footer */
-
 footer {
     position: fixed;
     bottom: 0;
@@ -80,7 +70,6 @@ footer {
     color: #FFF;
 }
 
-
 /* Contacto */
 .textohero {
     color: rgb(255, 255, 255);
@@ -89,9 +78,7 @@ footer {
 .fondo {
     background-image: url("../assets/img/fondohero.png");
     background-repeat: no-repeat;
-
     background-size: cover;
-
 }
 
 .display-4 {
@@ -104,7 +91,6 @@ footer {
 }
 
 /* Tienda */
-
 .cards {
     display: flex;
     justify-content: center;
@@ -125,7 +111,6 @@ footer {
 }
 
 /* Galeria */
-
 .galeriaw {
     color: #000;
     text-align: center;
@@ -134,6 +119,11 @@ footer {
 /* Sede */
 .sedeu {
     color: #000;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #A740B8;
     text-align: center;
 }
 
@@ -146,4 +136,23 @@ footer {
     padding-bottom: 56.25%;
     position: relative;
     overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-container {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .logoprincipal img {
+        width: 15rem;
+    }
+
+    .card {
+        width: 250px;
+    }
 }
